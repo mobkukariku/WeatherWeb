@@ -1,0 +1,185 @@
+body {
+    font-size: 1.2em;
+    font-family: "Inter", sans-serif;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 70%;
+    height: 100%;
+    margin-top: 1%;
+    padding: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.container #SearchForm{
+}
+.container #SearchForm input{
+    font-size: 0.7em;
+    padding-left: 1em;
+    background:rgba(241, 246, 253, 1);
+    border: none;
+    border-radius: 1em;
+    height: 3em;
+    width: 29em;
+}
+.container #SearchForm button{
+    color: white;
+    font-size: 13px;
+    background: rgba(80, 127, 188, 1);
+    border-radius: 1.2em;
+    border: none;
+    height: 3.5em;
+    width: 5.3em;
+    transition: 20ms ease;
+}
+
+.container #SearchForm button:hover{
+    background: rgb(61, 97, 144);
+}
+
+
+#info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    margin-top: 3%;
+    overflow: hidden;
+    gap: 3%;
+}
+
+
+
+.temp-block{
+    height: 50%;
+    width: 67%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(241, 246, 253, 1);
+    border-radius: 0.5em;
+    
+}
+.temp-block img{
+    height: 70%;
+
+    align-self: center;
+}
+.temp-block #info-temp{
+    margin-top: 2%;  
+    font-size: 40px;
+}
+
+.temp-block #info-desc{
+    font-weight: 500;
+    margin-top: -7%;
+    font-size: 14px;
+}
+.temp-block #info-name #info-country{
+    margin-left: 0.5em;
+    font-size: 12px;
+}
+
+.forecast-block{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.5em;
+    background:rgba(241, 246, 253, 1);
+    
+}
+
+.forecast-list{
+    display: flex;
+    margin-bottom: 6%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    gap: 20%;
+}
+
+
+.forecast-block img{
+    width: 13%;
+}
+
+.swiper-slide{
+    border-radius: 0.5em;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(241, 246, 253, 1);
+}
+
+.swiper-slide .slideDate{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    font-weight: 500;
+    font-size: 13px;
+
+}
+.swiper-slide .slideDate h3{
+    
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2%;
+}
+
+.swiper-slide img{
+    align-self: center;
+    width: 60%;
+    margin: 0 20%
+}
+
+
+.swiper-slide .slideTemp{
+    text-align: end;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.weatherOnTime-block{
+    width: 90%;
+    margin-top: 4%;
+}
+
+.swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+
+}
+
+.mySwiper{
+
+}
+.swiper-pagination{
+    opacity: 0;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    border-radius: 0.5em;
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(241, 246, 253, 1);
+}
+
+.menu-block .menu-Images {
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+}
